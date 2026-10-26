@@ -1,0 +1,8 @@
+{
+  "name": "zcode-pixel-pet",
+  "version": "0.3.6",
+  "private": true,
+  "description": "ZCode hooks/MCP 与独立 Windows 像素桌宠",
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test tests/node/*.test.cjs" }
+}

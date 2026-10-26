@@ -1,0 +1,18 @@
+# Build output: compile with native/build.ps1 (PowerShell 7 + .NET Framework csc)
+bin/
+
+# Local acceptance-process artifacts with machine-specific evidence paths
+verification.json
+quality-verification.json
+remediation-verification.json
+hover-leave-verification.json
+tests/native/evidence/
+tests/native/evidence-alt/
+tests/native/evidence-quality/
+tests/native/evidence-remediation/
+tests/native/model-test.json
+tests/native/build-verification.json
+
+*.log
+Thumbs.db
+.DS_Store

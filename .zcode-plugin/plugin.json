@@ -1,0 +1,14 @@
+{
+  "name": "zcode-pixel-pet",
+  "version": "0.3.6",
+  "description": "Aemeath Mini 二维像素桌宠：对齐 Codex 桌面行为（尺寸/慢速idle/悬浮跳跃/方向拖动/注视）、任务 hooks、可调速度、九行动画和16观察方向。",
+  "author": { "name": "Local companion project" },
+  "skills": "./skills",
+  "hooks": "./hooks/pet-events.json",
+  "mcpServers": {
+    "zcode-pet": {
+      "command": "node",
+      "args": ["${ZCODE_PLUGIN_ROOT}/scripts/mcp-server.cjs"]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "hooks": {
+    "SessionStart": [{ "hooks": [{ "type": "process", "command": "node", "args": ["${ZCODE_PLUGIN_ROOT}/scripts/hook.cjs"], "timeoutMs": 8000 }] }],
+    "UserPromptSubmit": [{ "hooks": [{ "type": "process", "command": "node", "args": ["${ZCODE_PLUGIN_ROOT}/scripts/hook.cjs"], "timeoutMs": 8000 }] }],
+    "PreToolUse": [{ "hooks": [{ "type": "process", "command": "node", "args": ["${ZCODE_PLUGIN_ROOT}/scripts/hook.cjs"], "timeoutMs": 1500 }] }],
+    "PermissionRequest": [{ "hooks": [{ "type": "process", "command": "node", "args": ["${ZCODE_PLUGIN_ROOT}/scripts/hook.cjs"], "timeoutMs": 1500 }] }],
+    "PostToolUse": [{ "hooks": [{ "type": "process", "command": "node", "args": ["${ZCODE_PLUGIN_ROOT}/scripts/hook.cjs"], "timeoutMs": 1500 }] }],
+    "PostToolUseFailure": [{ "hooks": [{ "type": "process", "command": "node", "args": ["${ZCODE_PLUGIN_ROOT}/scripts/hook.cjs"], "timeoutMs": 1500 }] }],
+    "Stop": [{ "hooks": [{ "type": "process", "command": "node", "args": ["${ZCODE_PLUGIN_ROOT}/scripts/hook.cjs"], "timeoutMs": 1500 }] }]
+  }
+}

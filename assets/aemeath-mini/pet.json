@@ -1,0 +1,7 @@
+{
+  "id": "aemeath-mini",
+  "displayName": "Aemeath Mini",
+  "description": "二维像素爱弥斯：保留原有九行动画，新增 16 个观察方向。",
+  "spritesheetPath": "spritesheet.webp",
+  "spriteVersionNumber": 2
+}
